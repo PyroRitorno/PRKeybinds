@@ -1,10 +1,14 @@
 fx_version 'cerulean'
 games { 'gta5' }
+lua54 'yes'
+
+author 'Pyro Ritorno & PiterMcFlebor'
 
 -- PLEASE, DO NOT REMOVE MY SIGN
 description 'Keybinds handler by PiterMcFlebor'
-version '1.0'
 
-file 'import.lua'
 
-client_script 'misc.lua'
+
+
+file 'imports.lua'
+client_script 'keybinds.lua'
