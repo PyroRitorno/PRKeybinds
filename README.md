@@ -3,22 +3,22 @@
 
 ## Installation [EN]
 - Download the latest release
-- Extract the .zip file and add the `pmc-keybinds` to your resource folder
-- Add to your .cfg file the `ensure pmc-keybinds`
+- Extract the .zip file and add the `PRKeybinds` to your resource folder
+- Add to your .cfg file the `ensure PRKeybinds`
 
 ## Usage [EN]
 - Open your `fxmanifest.lua` file
-- Add to `client_scripts` the keybind file `@pmc-keybinds/imports.lua`
+- Add to `client_scripts` the keybind file `@PRKeybinds/imports.lua`
 - Inside any Lua client-side file use `RegisterKey(layout:string, keyname:string, mapname:string, onpress:function|nil, onrelease:function|nil, seclayout:string|nil, seckeyname:string|nil)`
 
 ## Instalación [ES]
 - Descarga la última version
-- Extrae el archivo .zip y añade `pmc-keybinds` a tu carpeta `resources`
-- Añade a tu archivo .cfg `ensure pmc-keybinds`
+- Extrae el archivo .zip y añade `PRKeybinds` a tu carpeta `resources`
+- Añade a tu archivo .cfg `ensure PRKeybinds`
 
 ## Uso [ES]
 - Abre tu archivo `fxmanifest.lua`
-- Añade a `client_scripts` el archivo `@pmc-keybinds/imports.lua`
+- Añade a `client_scripts` el archivo `@PRKeybinds/imports.lua`
 - Dentro de cualquier archivo Lua client-side utiliza `RegisterKey(layout:string, keyname:string, mapname:string, onpress:function|nil, onrelease:function|nil, seclayout:string|nil, seckeyname:string|nil)`
 
 ## Example / Ejemplo
