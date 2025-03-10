@@ -1,5 +1,5 @@
 
-# FiveM Keybind handler
+# CFX/FiveM: PRKeybinds (fork of [pitermcflebor/pmc-keybinds](https://github.com/pitermcflebor/pmc-keybinds) keybind handler)
 
 ## Installation [EN]
 - Download the latest release
