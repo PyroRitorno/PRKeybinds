@@ -77,3 +77,14 @@ RegisterKeyFromCommand(
     'emote clear' -- on-release command
 )
 ```
+### example 6 (event callback; support for non-lua scripts)
+```lua
+-- both sets of callbacks should work within client scripts
+-- i havent testing if these callbacks work in server scripts, but im sure they will throw many errors / not work
+
+TriggerEvent('PRKeybinds:RegisterKey', layout, keyname, mapname, onpressfunc, onreleasefunc, seclayout, seckeyname)
+TriggerEvent('PRKeybinds:RegisterKeyCMD', layout, keyname, mapname, onpresscmd, onreleasecmd, seclayout, seckeyname)
+
+TriggerEvent('RegisterKey', layout, keyname, mapname, onpressfunc, onreleasefunc, seclayout, seckeyname)
+TriggerEvent('RegisterKeyCMD', layout, keyname, mapname, onpresscmd, onreleasecmd, seclayout, seckeyname)
+```
